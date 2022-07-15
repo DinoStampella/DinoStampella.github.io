@@ -185,7 +185,7 @@
             </div>
         <script src="./js/contact.js"></script>
         </section>
-        <div class="form__background">
+        <section class="form__background">
             <form id="fs-frm" name="appointment-form" accept-charset="utf-8" action="https://formspree.io/f/xyyovbdj" method="post" class="appointment__form" target="_blank">
                     <h2 class="form__title" id="form__title">Completá los datos y reservá tu turno.</h2>
                      <div class="form__items">
@@ -202,31 +202,15 @@
                     </div>
                     <div class="form__items">
                         <label for="time">Hora</label>
-                        <input type="time" name="time" id="time" required min="08:00" max="20:00" step="1800" list="timeList">
+                        <input type="time" name="time" id="time" required min="08:00" max="20:00" step="1800">
                     </div>
                     <div class="buttons__container">
                         <input type="submit" value="Solicitar turno" class="buttons">
                         <input type="reset" value="Cerrar" class="buttons form__close">
                     </div>
-
-                    <datalist id="timeList">
-                        <option value="08:00"></option>
-                        <option value="09:00"></option>
-                        <option value="10:00"></option>
-                        <option value="11:00"></option>
-                        <option value="12:00"></option>
-                        <option value="13:00"></option>
-                        <option value="14:00"></option>
-                        <option value="15:00"></option>
-                        <option value="16:00"></option>
-                        <option value="17:00"></option>
-                        <option value="18:00"></option>
-                        <option value="19:00"></option>
-                    </datalist>
-                
             </form>
             <script src="./js/form.js"></script>
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
