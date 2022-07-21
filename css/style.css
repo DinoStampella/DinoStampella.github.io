@@ -171,7 +171,7 @@ body{
     object-fit: cover;
     object-position: 50% 100%;
     border: solid medium var(--color-3);
-    border-radius: 8px;
+    border-radius: 20px;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -238,7 +238,7 @@ body{
     width: 250px;
     position: relative;
     bottom: 15px;
-    right: 10px;
+    right: 15px;
 }
 
 .arrow__left, .arrow__right{
@@ -268,6 +268,7 @@ body{
     height: 250px;
     object-fit: cover;
     border: solid medium var(--color-3);
+    border-radius: 20px;
 }
 
 .service__description{
@@ -300,11 +301,10 @@ body{
 
 
 .services__hr{
-    width: 80%;
-    margin: 30px auto;
+    width: 100%;
+    margin: 30px 0;
     background-color: var(--color-3);
-    height: 1px;
-    border: none;
+    border: solid var(--color-3) 2px;
 }
 
 
